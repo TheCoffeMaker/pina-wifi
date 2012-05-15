@@ -1,0 +1,21 @@
+Station 2c:d2:e7:0c:49:8d (on wlan0)
+        ip address:     <b>172.16.42.247</b>
+        host name:      <b>Nokia-N900-42-11</b>
+        Karma SSID:     <b>'pineapple'</b>
+	inactive time:	20 ms
+	rx bytes:	362523
+	rx packets:	2633
+	tx bytes:	2940879
+	tx packets:	2438
+	tx retries:	2509
+	tx failed:	6
+	signal:  	-34 [-34] dBm
+	signal avg:	-33 [-33] dBm
+	tx bitrate:	54.0 MBit/s
+	rx bitrate:	12.0 MBit/s
+	authorized:	yes
+	authenticated:	yes
+	preamble:	short
+	WMM/WME:	yes
+	MFP:		no
+	TDLS peer:	no
