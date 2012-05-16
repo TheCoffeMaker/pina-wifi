@@ -1,23 +1,23 @@
 #!/bin/sh
-# --------------------------------------------------------------
-# Check if 3G / WAN connection is online and bring it up if not.
-# --------------------------------------------------------------
+# ---------------------------------------------------------------------
+# Verifica si la conexión 3G / WAN está activa y la sube si no lo está.
+# ---------------------------------------------------------------------
 
-SERVER="8.8.8.8" # This is Google's DNS server - if it's down we've got bigger problems
-logger "3G: Keep-Alive Script Executed"
+SERVER="8.8.8.8" # Este es el servidor DNS de Google's DNS server - si está caido tenemos graves problemas
+logger "3G: Script de Persistencia Ejecutado."
 
 if ! ( ifconfig 3g-wan2); then
-	logger "3G: Interface 3g-wan2 seems down. Attempting 3g connect script again"
+	logger "3G: La interfaz 3g-wan2 parece inactiva. Ejecutando de nuevo script de conexión."
 	/www/pineapple/3g/3g.sh
 else
-	logger "3G: Interface 3g-wan2 seems up"
+	logger "3G: La interfaz 3g-wan2 parece activa."
 
 	if ! ( ping -q -c 1 -W 10 $SERVER > /dev/null || ping -q -c 1 -W 10 $SERVER > /dev/null || ping -q -c 1 -W 10 $SERVER > /dev/null ); then
-		logger "3G: Interface 3g-wan2 up however Internet connection seemed to have been down. Hello, IT. Is the modem activated? Have you tried turning it off and on again?"
-		logger "3G: Attempting ifup wan2. Hopefully that solves the problem."
+		logger "3G: Interfaz 3g-wan2 activa, sin embargo la conexión a Internet parece haberse caido. Verifique si el modem está activo. Desconecte y conecte de nuevo el modem a la piña."
+		logger "3G: Ejecutando ifup wan2. Esperando que esto resulva el problema."
 		ifup wan2
 		
 	else
-		logger "3G: Interface 3g-wan2 up and Internet Connection seems to be up. woot"
+		logger "3G: Interfaz 3g-wan2 activa y la conexión a Internet parece estar arriba. woot"
 	fi
 fi
