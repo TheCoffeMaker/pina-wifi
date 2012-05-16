@@ -7,6 +7,6 @@ exec ("echo /www/pineapple/update-ngrep.sh | at now");
 <meta http-equiv="refresh" content="0; url=/pineapple/">
 </head><body bgcolor="black" text="white"><pre>
 <?php
-echo "Entropy Bunny Grepping";
+echo "Conejito de la entrop&iacute;a extrayendo goodies...";
 ?>
 </pre></head></body>

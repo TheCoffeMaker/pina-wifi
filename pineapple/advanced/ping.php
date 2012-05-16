@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Pineapple Control Center</title>
+<title>Centro de Control Pi&ntilde;a WiFi</title>
 <script  type="text/javascript" src="jquery.min.js"></script>
 </head>
 <body bgcolor="black" text="white" alink="green" vlink="green" link="green">
@@ -40,7 +40,7 @@ echo ("$outputline\n");}
 |<\\>>X/<>/\|
 `<\/><\/><\\;                            
  '/\<>/\<>/'                       
-   `<\/><;`</font><font color="white">wifi_pineapple</font>
+   `<\/><;`</font><font color="white">pi&ntilde;a_wifi</font>
 
 </pre>
 </td></tr></table>

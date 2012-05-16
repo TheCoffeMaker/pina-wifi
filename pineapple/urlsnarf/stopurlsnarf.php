@@ -8,6 +8,6 @@ exec ("kill `ps auxww | grep \"urlsnarf -i br-lan\" | grep -v -e grep | awk '{pr
 <meta http-equiv="refresh" content="0; url=/pineapple/">
 </head><body bgcolor="black" text="white"><pre>
 <?php
-echo "Entropy Bunny stops snarfing urls, having a mojito instead.";
+echo "Conejito de la entrop&iacute;a deja de husmear en las urls, va a tomarse un mojito...";
 ?>
 </pre></head></body>

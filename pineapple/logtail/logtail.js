@@ -29,7 +29,7 @@ t= setTimeout("getLog()",20000);
  
 function stopTail() {
 clearTimeout(t);
-var pause = "Karma log paused. Click Start to resume.\n";
+var pause = "Log de Karma pausado. Haga click en Iniciar para reanudar.\n";
 logDiv = document.getElementById("log");
 var newNode=document.createTextNode(pause);
 logDiv.replaceChild(newNode,logDiv.childNodes[0]);
@@ -47,6 +47,6 @@ logLine += currentLogValue[i] + "\n";
 }
 logDiv.innerHTML=logLine;
 } else
-alert("Error! Request status is " + request1.status);
+alert("Error! Estado de solicitud es " + request1.status);
 }
 }

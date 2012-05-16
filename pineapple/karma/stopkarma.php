@@ -8,6 +8,6 @@ exec ("kill `ps auxww | grep update-associations.sh | grep -v -e grep | awk '{pr
 <meta http-equiv="refresh" content="2; url=../wait.php">
 </head><body bgcolor="black" text="white"><pre>
 <?php
-echo "Entropy Bunny Deactivated";
+echo "Conejito de la entrop&iacute;a desactivado.";
 ?>
 </pre></head></body>

@@ -8,6 +8,6 @@ exec ("echo hostapd_cli -p /var/run/hostapd-phy0 karma_white | at now");
 <meta http-equiv="refresh" content="1; url=../config.php">
 </head><body bgcolor="black" text="white"><pre>
 <?php
-echo "Entropy Bunny Bouncing";
+echo "Conejito de la entrop&iacute;a rebotando...";
 ?>
 </pre></head></body>

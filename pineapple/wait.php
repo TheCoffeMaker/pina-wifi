@@ -2,7 +2,7 @@
 <meta http-equiv="refresh" content="5; url=/pineapple/">
 </head><body bgcolor="black" text="white"><pre>
 <?php
-echo "Hang Tight. Entropy Bunny is bouncing...";
+echo "Ag&aacute;rrate fuerte. El conejito de la entrop&iacute;a está rebotando...";
 ?>
 
 (\___/)
