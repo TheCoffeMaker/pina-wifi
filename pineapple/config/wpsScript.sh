@@ -1,5 +1,5 @@
 #!/bin/sh
-#Script is executed when WPS button
-#is pressed for 2-4 seconds.
+#Script se ejecuta cuando se presiona
+#el botón WPS durante 2-4 segundos.
 
 

@@ -24,7 +24,7 @@ local divider=" "
 	while [ "${i}" -le "${sta_count}" ] # do this for as many times as there are stations
 	do
 	line=$(grep -e "${sta[${i}]}" stadump) # grab the line with the station bssid
-	sed -i '/'"${sta[${i}]}"'/ s/.*/'"${line}\n        ip address:     \<b\>${sta_ip[${i}]}\<\/b\>\n        host name:      \<b\>${sta_hostname[${i}]}\<\/b\>\n        Karma SSID:     \<b\>${sta_ssid[${i}]}\<\/b\>"'/g' stadump
+	sed -i '/'"${sta[${i}]}"'/ s/.*/'"${line}\n        Dir. IP:     \<b\>${sta_ip[${i}]}\<\/b\>\n        nombre host:      \<b\>${sta_hostname[${i}]}\<\/b\>\n        SSID Karma:     \<b\>${sta_ssid[${i}]}\<\/b\>"'/g' stadump
 	#sed -i '/'"${sta[${i}]}"'/ i'"${divider}"'' ${DIR}/${FILE}
 	let "i += 1"
 	done
