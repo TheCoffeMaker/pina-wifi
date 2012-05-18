@@ -1,0 +1,12 @@
+TRAPCOOKIES 0.1
+
+Al habilitar todos las opciones del módulo, la victima es redirigida a un portal captivo que contiene una página que abre frames de diversos dominios populares, obligandolo a revelar las cookies de los sitios donde esta autenticado.
+
+FUNCIONES:
+- Instala/Desinstala ngrep con opkg
+- Permite visualizar el log de las cookies
+- Permite configurar las opciones de ngrep
+- Contiene página con frames de sitios populares
+- Permite activar/desactivar dnsspoof
+- Realiza un respaldo de los archivos al instalarlo
+- Permite restaurar el respaldo al removerlo

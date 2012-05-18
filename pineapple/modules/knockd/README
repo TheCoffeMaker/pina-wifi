@@ -1,0 +1,12 @@
+KNOCKD 0.1
+
+El módulo knockd facilita la integración de port knocking al dispositivo.
+Es útil para esconder las interfaces de administración.
+
+FUNCIONES:
+- Instala/Desinstala knockd con opkg. 
+- Permite configurar los puertos a tocar y comandos a correr.
+- Activa/Desactiva el servicio de knockd.
+
+
+VIDEO: http://www.youtube.com/watch?v=IYEpnLG4YP4
