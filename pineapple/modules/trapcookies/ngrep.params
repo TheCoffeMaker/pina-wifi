@@ -1,0 +1,1 @@
+-q -d br-lan -W byline -t 'Cookie' 'tcp and port 80' > /tmp/cookielog.txt &
